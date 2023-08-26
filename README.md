@@ -9,7 +9,7 @@ and executes that method and stack frame gets released from stack,,and whenever 
 on useer interaction at run time,,and they will exist for life long(as long as pgm exists)..
 So,instance and objects are stored in heap 
 stackis datasructure and heap is space
-
+--each instance of will have seperate space in heap to store its set of instance variables
 ---In this exampl the main method creates a stack frame,which is constant and for somemethod a new method gets pushed into stack every time itis 
 called,and gets popped out after excution,,and a new stackframe created when it is called next time 
 
